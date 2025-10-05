@@ -74,6 +74,18 @@ h2 {
   opacity: 0;
 }
 
+.row {
+  display: flex;
+  gap: 20px; /* расстояние между полями */
+  flex-wrap: wrap; /* чтобы адаптировалось на маленьких экранах */
+}
+
+.form-group {
+  flex: 1;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+}
 
 /* Ключевые кадры исчезновения */
 @keyframes fadeOut {
